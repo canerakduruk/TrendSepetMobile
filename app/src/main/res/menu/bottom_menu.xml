@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_mainmenu"
+        android:icon="@drawable/vector_home"
+        android:title="Anasayfa" />
+
+    <item android:title="" />
+
+    <item android:title="Favoriler"
+        android:icon="@drawable/vector_heart"
+        android:id="@+id/nav_favorites" />
+
+    <item android:title="" />
+
+    <item
+        android:id="@+id/nav_myaccount"
+        android:icon="@drawable/vector_user_circle"
+        android:title="Hesabım" />
+
+</menu>

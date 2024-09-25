@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Giyim",
+      "category": [
+        "Üst Giyim",
+        "Alt Giyim",
+        "Dış Giyim",
+        "İç Giyim",
+        "Spor Giyim"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aksesuar",
+      "category": [
+        "Saat",
+        "Takı",
+        "Çanta",
+        "Şapka ve Bere",
+        "Gözlük",
+        "Kemer",
+        "Cüzdan"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Teknoloji",
+      "category": [
+        "Akıllı Telefon ve Aksesuarları",
+        "Bilgisayar ve Tablet",
+        "Oyun ve Konsol",
+        "Giyilebilir Teknoloji",
+        "Ev Elektroniği",
+        "Bilgisayar Aksesuarları"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ev ve Dekorasyon",
+      "category": [
+        "Mobilya",
+        "Aydınlatma",
+        "Dekoratif Ürünler",
+        "Tekstil Ürünleri",
+        "Mutfak Eşyaları",
+        "Banyo Aksesuarları"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Spor ve Outdoor",
+      "category": [
+        "Spor Giyim ve Ayakkabı",
+        "Fitness Ekipmanları",
+        "Kamp ve Outdoor Ekipmanları",
+        "Spor Aksesuarları"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Kozmetik ve Kişisel Bakım",
+      "category": [
+        "Cilt Bakımı",
+        "Saç Bakımı",
+        "Makyaj",
+        "Parfüm ve Deodorant",
+        "Vücut Bakımı",
+        "Kişisel Bakım Aksesuarları"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bebek ve Çocuk",
+      "category": [
+        "Bebek Giyim",
+        "Bebek Bakımı",
+        "Bebek Mobilyası",
+        "Bebek Oyuncakları"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Otomotiv",
+      "category": [
+        "Araç Bakım Ürünleri",
+        "Oto Aksesuarları",
+        "Araç Elektroniği"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Kitap ve Kırtasiye",
+      "category": [
+        "Kitaplar",
+        "Kırtasiye Ürünleri",
+        "Ofis Malzemeleri"
+      ]
+    }
+  ]
+}

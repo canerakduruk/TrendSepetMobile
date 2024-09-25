@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyAccountActivity">
+
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="17">
+
+        <LinearLayout
+            android:id="@+id/llUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardCornerRadius="100dp"
+                app:cardElevation="6dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/vector_user_circle"
+                    app:riv_oval="true" />
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/tvFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="John Doe"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="johndoe@example.com"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAccountActions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tvSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_textview_orange_radial"
+                android:gravity="center"
+                android:text="Kayıt Ol"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textColor="@color/white_smoke" />
+
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_textview_whitesmoke_outlined"
+                android:gravity="center"
+                android:text="Giriş Yap"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:textColor="@color/orange_200" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvAccountInfo"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_user_circle"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Üyelik Bilgileri"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEDEB" />
+
+            <TextView
+                android:id="@+id/tvMyAddresses"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_location"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Adreslerim"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEDEB" />
+
+            <TextView
+                android:id="@+id/tvOrder"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_delivery"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Siparişlerim"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEDEB" />
+
+
+            <TextView
+                android:id="@+id/tvSetProduct"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_add"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Ürün Ekle"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEDEB" />
+
+            <TextView
+                android:id="@+id/tvMyProduct"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_product"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Ürünlerim"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEDEB" />
+
+
+            <TextView
+                android:id="@+id/tvDelivery"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_shipping"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Gelen Siparişler"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#EEEDEB" />
+
+
+            <TextView
+                android:id="@+id/tvChat"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:drawableStart="@drawable/vector_message"
+                android:drawableEnd="@drawable/vector_rightarrow"
+                android:drawablePadding="10dp"
+                android:gravity="center|start"
+                android:text="Mesajlarım"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvExitAccount"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_textview_orange"
+            android:drawableStart="@drawable/vector_exit_white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/exit"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/white_smoke"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</LinearLayout>

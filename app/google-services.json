@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "777400445661",
+    "project_id": "trendsepet-c6453",
+    "storage_bucket": "trendsepet-c6453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777400445661:android:6fd6c46a74b271078fc934",
+        "android_client_info": {
+          "package_name": "com.example.eticaretapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRRfBteYwSNLiVkHYxj10MQx6g2IveoSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

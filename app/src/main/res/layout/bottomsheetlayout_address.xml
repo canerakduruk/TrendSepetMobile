@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bottom"
+    android:orientation="vertical">
+
+    <View
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="5dp"
+        android:background="@drawable/rounded_bottomsheet" />
+
+    <TextView
+        android:id="@+id/tvAddAddress"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="ADRES EKLE"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+        android:textColor="@color/white_smoke"
+        android:background="@drawable/custom_textview_orange"
+        android:drawableStart="@drawable/vector_addlocation_white"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAddressList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

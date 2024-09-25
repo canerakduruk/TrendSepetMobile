@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductActionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/ivProductImage"
+                    android:layout_width="230dp"
+                    android:layout_height="230dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/choose_image" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <EditText
+                android:id="@+id/etProductName"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/custom_textview_radius"
+                android:ems="10"
+                android:hint="Ürün Adı"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            <EditText
+                android:id="@+id/etProductPrice"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_textview_radius"
+
+                android:hint="Ürün Fiyatı"
+                android:inputType="numberDecimal"
+                android:paddingStart="10dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <EditText
+                android:id="@+id/etProductKdvRate"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_textview_radius"
+                android:ems="10"
+
+                android:hint="Ürün KDV Oranı"
+                android:inputType="numberDecimal"
+                android:paddingStart="10dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            <TextView
+                android:id="@+id/tvProductCategory"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_textview_radius"
+                android:drawableEnd="@drawable/arrow_drop_down"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint="Kategori"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+            <EditText
+                android:id="@+id/etProductContent"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_textview_radius"
+                android:gravity="start|top"
+                android:hint="Ürün Açıklaması"
+                android:inputType="textMultiLine"
+                android:minHeight="100dp"
+                android:paddingStart="20dp"
+                android:paddingTop="4dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+            <TextView
+                android:id="@+id/tvProductProperty"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/custom_textview_radius"
+                android:drawableEnd="@drawable/arrow_drop_down"
+                android:hint="Özellikler"
+                android:minHeight="100dp"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvSetProduct"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_textview_orange"
+        android:gravity="center"
+        android:text="@string/add"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+        android:textColor="@color/white_smoke" />
+
+</LinearLayout>
+
+
+
+

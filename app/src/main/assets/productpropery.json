@@ -1,0 +1,313 @@
+{
+  "features": [
+    {
+      "name": "Renk",
+      "id": 1,
+      "values": [
+        "Kırmızı",
+        "Mavi",
+        "Yeşil",
+        "Siyah",
+        "Beyaz",
+        "Sarı",
+        "Turuncu",
+        "Mor",
+        "Pembe",
+        "Gri"
+      ]
+    },
+    {
+      "name": "Beden",
+      "id": 1,
+      "values": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 1,
+      "values": [
+        "Pamuk",
+        "Polyester",
+        "Deri",
+        "Yün",
+        "Keten",
+        "İpek",
+        "Naylon"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 2,
+      "values": [
+        "Kırmızı",
+        "Mavi",
+        "Siyah",
+        "Beyaz",
+        "Gri"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 2,
+      "values": [
+        "Deri",
+        "Keten",
+        "Pamuk",
+        "Polyester"
+      ]
+    },
+    {
+      "name": "Depolama",
+      "id": 3,
+      "values": [
+        "32GB",
+        "64GB",
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ]
+    },
+    {
+      "name": "RAM",
+      "id": 3,
+      "values": [
+        "2GB",
+        "4GB",
+        "8GB",
+        "16GB",
+        "32GB",
+        "64GB"
+      ]
+    },
+    {
+      "name": "İşlemci",
+      "id": 3,
+      "values": [
+        "Intel i3",
+        "Intel i5",
+        "Intel i7",
+        "Intel i9",
+        "AMD Ryzen 3",
+        "AMD Ryzen 5",
+        "AMD Ryzen 7",
+        "Apple M1",
+        "Apple M2"
+      ]
+    },
+    {
+      "name": "Pil",
+      "id": 3,
+      "values": [
+        "2500mAh",
+        "3000mAh",
+        "3500mAh",
+        "4000mAh",
+        "4500mAh",
+        "5000mAh",
+        "6000mAh"
+      ]
+    },
+    {
+      "name": "Ekran Boyutu",
+      "id": 3,
+      "values": [
+        "4.7 İnç",
+        "5.5 İnç",
+        "6.1 İnç",
+        "6.5 İnç",
+        "7.0 İnç",
+        "7.9 İnç",
+        "8.3 İnç",
+        "10.2 İnç",
+        "11.0 İnç",
+        "12.9 İnç",
+        "13.3 İnç",
+        "14.0 İnç",
+        "15.6 İnç",
+        "16.0 İnç",
+        "17.3 İnç",
+        "19.5 İnç",
+        "21.5 İnç",
+        "24.0 İnç",
+        "27.0 İnç",
+        "32.0 İnç",
+        "34.0 İnç",
+        "40.0 İnç",
+        "49.0 İnç"
+      ]
+    },
+    {
+      "name": "İşletim Sistemi",
+      "id": 3,
+      "values": [
+        "Android",
+        "iOS",
+        "Windows",
+        "macOS",
+        "Linux",
+        "Chrome OS",
+        "HarmonyOS"
+      ]
+    },
+    {
+      "name": "Bağlantı",
+      "id": 3,
+      "values": [
+        "Wi-Fi",
+        "Bluetooth",
+        "NFC",
+        "5G",
+        "4G",
+        "USB-C",
+        "Lightning",
+        "Ethernet"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 4,
+      "values": [
+        "Ahşap",
+        "Metal",
+        "Plastik",
+        "Cam"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 4,
+      "values": [
+        "Kahverengi",
+        "Siyah",
+        "Beyaz",
+        "Gri"
+      ]
+    },
+    {
+      "name": "Beden",
+      "id": 5,
+      "values": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 5,
+      "values": [
+        "Pamuk",
+        "Polyester",
+        "Deri",
+        "Naylon"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 5,
+      "values": [
+        "Kırmızı",
+        "Mavi",
+        "Siyah",
+        "Beyaz",
+        "Yeşil"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 6,
+      "values": [
+        "Pamuk",
+        "Polyester",
+        "İpek"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 6,
+      "values": [
+        "Pembe",
+        "Beyaz",
+        "Mavi",
+        "Siyah"
+      ]
+    },
+    {
+      "name": "Beden",
+      "id": 7,
+      "values": [
+        "0-3 Ay",
+        "3-6 Ay",
+        "6-9 Ay",
+        "9-12 Ay",
+        "1-2 Yaş",
+        "3-4 Yaş"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 7,
+      "values": [
+        "Pamuk",
+        "Polyester"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 7,
+      "values": [
+        "Pembe",
+        "Mavi",
+        "Beyaz",
+        "Yeşil"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 8,
+      "values": [
+        "Metal",
+        "Plastik",
+        "Kauçuk"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 8,
+      "values": [
+        "Siyah",
+        "Gri",
+        "Kırmızı"
+      ]
+    },
+    {
+      "name": "Malzeme",
+      "id": 9,
+      "values": [
+        "Kağıt",
+        "Plastik"
+      ]
+    },
+    {
+      "name": "Renk",
+      "id": 9,
+      "values": [
+        "Beyaz",
+        "Siyah"
+      ]
+    }
+  ]
+}

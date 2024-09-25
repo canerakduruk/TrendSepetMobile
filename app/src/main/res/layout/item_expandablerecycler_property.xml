@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_expandablerecycler_property_txtpropertyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/properties" />
+
+    <TextView
+        android:id="@+id/item_expandablerecycler_property_txtvalue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="-"
+        android:textSize="40sp"
+        android:background="@drawable/custom_textview_whitesmoke"
+        android:gravity="center"
+        android:drawableEnd="@drawable/arrow_drop_down"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
+
+
+</LinearLayout>

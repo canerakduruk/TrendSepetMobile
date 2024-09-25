@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/linearProgressIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_bottomsheet" />
+
+        <EditText
+            android:id="@+id/bottomsheetlayout_login_edtusername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_textview_radius"
+            android:drawableStart="@drawable/vector_user_circle"
+            android:drawablePadding="5dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <EditText
+            android:id="@+id/bottomsheetlayout_login_edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_textview_radius"
+            android:drawableStart="@drawable/vector_password"
+            android:drawablePadding="5dp"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:text="Üye değil misin ?"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/bottomsheetlayout_login_txtsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Üye Ol"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                android:textColor="@color/orange_200" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bottomsheetlayout_login_txtlogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_textview_orange"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:textColor="@color/white_smoke"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

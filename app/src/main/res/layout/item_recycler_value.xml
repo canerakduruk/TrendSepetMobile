@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/item_recycler_value_txtvalue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="VALUE"
+        android:textSize="40sp"
+        android:background="@drawable/custom_textview_whitesmoke"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ETicaretApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_200</item>
+        <item name="colorPrimaryVariant">@color/orange_220</item>
+        <item name="colorOnPrimary">@color/white_smoke</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="bottomAppBarStyle">@style/CustomBottomAppBar</item>
+
+        <item name="textInputStyle">@style/CustomTextInputLayout</item>
+
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+
+
+    </style>
+
+    <style name="DialogStyle" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="NoRippleStyle">
+        <item name="selectableItemBackground">@null</item>
+    </style>
+
+    <style name="CustomBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="backgroundTint">@color/white_smoke</item> <!-- Turuncu rengi burada tanımlayın -->
+    </style>
+
+    <style name="CustomTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox.Dense">
+        <item name="android:background">@android:color/white</item> <!-- Arka planı şeffaf yap -->
+        <item name="android:textColor">@android:color/black</item> <!-- İsteğe bağlı olarak metin rengini ayarlayabilirsiniz -->
+        <item name="android:textSize">16sp</item> <!-- Metin boyutunu ayarlayabilirsiniz -->
+    </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:background">@drawable/custom_textview_whitesmoke</item>
+    </style>
+
+    <style name="CustomTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+    </style>
+
+
+</resources>
